@@ -15,6 +15,6 @@ public class CacheController {
     @GetMapping("")
     public String testCache() {
 
-        return myService.getCachedData("hello");
+        return myService.getCachedData();
     }
 }
